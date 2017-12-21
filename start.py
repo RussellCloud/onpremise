@@ -1,7 +1,7 @@
 import os
 import subprocess
 cmd = "docker-compose run --rm web config generate-secret-key"
-res = subprocess.check_output(cmd)
+res = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
 sk = res.split('\n')[-2]
 
 filename = 'docker-compose.yml'

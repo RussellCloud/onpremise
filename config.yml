@@ -9,13 +9,18 @@
 
 mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
 #mail.host: 'smtp.russellcloud.cn'
-mail.host: 'mail.hust.edu.cn'
-mail.port: 25
-mail.username: 'danceiny@hust.edu.cn'
+#mail.host: 'mail.hust.edu.cn'
+#mail.port: 25
+#mail.username: 'danceiny@hust.edu.cn'
 mail.password: 'RussellCloud2017'
 mail.use-tls: false
 # The email address to send on behalf of
-mail.from: 'danceiny@hust.edu.cn'
+#mail.from: 'danceiny@hust.edu.cn'
+mail.from: 'dev-notify@auto.mail.russellcloud.cn'
+
+mail.host: 'smtpdm.aliyun.com'
+mail.port: 80
+mail.username: 'dev-notify@auto.mail.russellcloud.cn'
 
 # If you'd like to configure email replies, enable this.
 mail.enable-replies: false

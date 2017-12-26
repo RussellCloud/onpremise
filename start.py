@@ -1,5 +1,7 @@
-import os
 import subprocess
+
+subprocess.call(["docker-compose", "build"])
+
 cmd = ["docker-compose", "run", "--rm", "web", "config", "generate-secret-key"]
 res = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
 sk = res.strip()[-50:]

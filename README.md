@@ -1,3 +1,10 @@
+
+# 快速开始
+1. 初始化：`python start.py`
+2. 启动/重启： `sh restart.sh`
+
+请勿提交docker-compose.yml的改动。
+
 # Sentry On-Premise
 
 Official bootstrap for running your own [Sentry](https://sentry.io/) with [Docker](https://www.docker.com/).

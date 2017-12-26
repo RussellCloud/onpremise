@@ -8,10 +8,11 @@
 ###############
 
 mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
-mail.host: 'smtp.russellcloud.cn'
+#mail.host: 'smtp.russellcloud.cn'
+mail.host: 'mail.hust.edu.cn'
 mail.port: 25
-mail.username: 'zhen.huang@russellcloud.cn'
-mail.password: 'RussellCloud2018'
+mail.username: 'u201414180@hust.edu.cn'
+mail.password: 'RussellCloud2017'
 mail.use-tls: false
 # The email address to send on behalf of
 mail.from: 'notify@russellcloud.cn'
